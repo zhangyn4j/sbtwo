@@ -1,0 +1,8 @@
+git rm log.log
+git reset head log.log
+git checkout -- log.log
+
+
+git add log.log
+git commit -m "first comiit"
+git push
